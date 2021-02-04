@@ -5,7 +5,7 @@ All user information are stored in the DynamoDB table.
 ## guestSubmission
 Submit guest information.  
 Method: `POST`  
-`curl -H "Content-Type: application/json" -X POST -d '{"fullname":"<username>","email": "<email-address>", "companyname":"<companyname>"}' https://<URL>/dev/guests`
+`curl -H "Content-Type: application/json" -X POST -d '{"fullname":"<username>","email":"<email-address>", "companyname":"<companyname>"}' https://<URL>/dev/guests`
 ## listGuests
 List all guests.  
 Method: `GET`  
