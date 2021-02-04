@@ -44,7 +44,7 @@ functions:
   guestSubmission:
     handler: api/guest.submit
     memorySize: 128
-    description: Submit guest information and starts interview process.
+    description: Submit guest information.
     events:
       - http: 
           path: guests
