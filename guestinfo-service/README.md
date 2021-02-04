@@ -1,7 +1,7 @@
 # guestinfo-service
 Guest user management function for the playground.  
 This code build out API-Gateway, Lambda functions and DynamoDB table by using CloudFormation.  
-All user information are stored in a DynamoDB table.
+All user information are stored in the DynamoDB table.
 ## guestSubmission
 Submit guest information.  
 Method: `POST`  
